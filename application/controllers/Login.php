@@ -14,7 +14,7 @@ public function index()
         redirect('dashboard/index');
         
     } else {
-        $this->load->view('login_view');
+        $this->load->view('login_view.php');
         
     }
 }
